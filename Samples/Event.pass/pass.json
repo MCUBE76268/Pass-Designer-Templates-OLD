@@ -1,11 +1,11 @@
 {
   "formatVersion": 1,
   "passTypeIdentifier": "pass.com.passdesigner.sample",
-  "serialNumber": "PD-EVENT-0001",
+  "serialNumber": "SERIAL-EVENT-0000",
   "teamIdentifier": "ABCDE12345",
   "organizationName": "Pass Designer",
   "description": "Pass Designer sample event pass",
-  "logoText": "NOVA HALL",
+  "logoText": "VENUE NAME",
   "foregroundColor": "rgb(255, 255, 255)",
   "backgroundColor": "rgb(42, 39, 86)",
   "labelColor": "rgb(210, 203, 255)",
@@ -14,15 +14,15 @@
     {
       "latitude": 25.1972,
       "longitude": 55.2744,
-      "relevantText": "Doors open at Nova Hall"
+      "relevantText": "Doors open at Venue Name"
     }
   ],
   "barcodes": [
     {
       "format": "PKBarcodeFormatQR",
-      "message": "PD-EVENT-NOVA-21MAY-A12-08",
+      "message": "EVENT-TICKET-0000",
       "messageEncoding": "iso-8859-1",
-      "altText": "A12-08"
+      "altText": "SECTION-SEAT"
     }
   ],
   "eventTicket": {
@@ -30,50 +30,50 @@
       {
         "key": "door",
         "label": "DOORS",
-        "value": "7:00 PM"
+        "value": "Door Time"
       }
     ],
     "primaryFields": [
       {
         "key": "event",
         "label": "LIVE",
-        "value": "Aurora Nights"
+        "value": "Event Name"
       }
     ],
     "secondaryFields": [
       {
         "key": "date",
         "label": "DATE",
-        "value": "May 21"
+        "value": "Event Date"
       },
       {
         "key": "venue",
         "label": "VENUE",
-        "value": "Nova Hall"
+        "value": "Venue Name"
       }
     ],
     "auxiliaryFields": [
       {
         "key": "section",
         "label": "SECTION",
-        "value": "A12"
+        "value": "SECTION"
       },
       {
         "key": "row",
         "label": "ROW",
-        "value": "G"
+        "value": "ROW"
       },
       {
         "key": "seat",
         "label": "SEAT",
-        "value": "08"
+        "value": "SEAT"
       }
     ],
     "backFields": [
       {
         "key": "entry",
         "label": "Entry",
-        "value": "Use the main entrance. Re-entry is not permitted after scanning."
+        "value": "Entry instructions go here."
       }
     ]
   }

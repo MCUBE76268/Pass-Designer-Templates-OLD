@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/NIOFoundationEssentialsCompat.build/primary.swiftdeps"
+  },
+  "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/checkouts/swift-nio/Sources/NIOFoundationEssentialsCompat/ByteBuffer-foundation.swift": {
+    "dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/NIOFoundationEssentialsCompat.build/ByteBuffer-foundation.d",
+    "object": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/NIOFoundationEssentialsCompat.build/ByteBuffer-foundation.swift.o",
+    "swiftmodule": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/NIOFoundationEssentialsCompat.build/ByteBuffer-foundation~partial.swiftmodule",
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/NIOFoundationEssentialsCompat.build/ByteBuffer-foundation.swiftdeps",
+    "diagnostics": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/NIOFoundationEssentialsCompat.build/ByteBuffer-foundation.dia"
+  },
+  "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/checkouts/swift-nio/Sources/NIOFoundationEssentialsCompat/Codable+ByteBuffer.swift": {
+    "dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/NIOFoundationEssentialsCompat.build/Codable+ByteBuffer.d",
+    "object": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/NIOFoundationEssentialsCompat.build/Codable+ByteBuffer.swift.o",
+    "swiftmodule": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/NIOFoundationEssentialsCompat.build/Codable+ByteBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/NIOFoundationEssentialsCompat.build/Codable+ByteBuffer.swiftdeps",
+    "diagnostics": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/NIOFoundationEssentialsCompat.build/Codable+ByteBuffer.dia"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/SwiftSyntax509.build/primary.swiftdeps"
+  },
+  "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/checkouts/swift-syntax/Sources/VersionMarkerModules/SwiftSyntax509/Empty.swift": {
+    "dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/SwiftSyntax509.build/Empty.d",
+    "object": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/SwiftSyntax509.build/Empty.swift.o",
+    "swiftmodule": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/SwiftSyntax509.build/Empty~partial.swiftmodule",
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/SwiftSyntax509.build/Empty.swiftdeps",
+    "diagnostics": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/SwiftSyntax509.build/Empty.dia"
+  }
+}

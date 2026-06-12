@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/PlatformFoundation.build/primary.swiftdeps"
+  },
+  "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /Sources/PlatformFoundation/PlatformFoundation.swift": {
+    "dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/PlatformFoundation.build/PlatformFoundation.d",
+    "object": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/PlatformFoundation.build/PlatformFoundation.swift.o",
+    "swiftmodule": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/PlatformFoundation.build/PlatformFoundation~partial.swiftmodule",
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/PlatformFoundation.build/PlatformFoundation.swiftdeps",
+    "diagnostics": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/PlatformFoundation.build/PlatformFoundation.dia"
+  }
+}

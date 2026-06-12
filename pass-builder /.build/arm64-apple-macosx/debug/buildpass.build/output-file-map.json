@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/primary.swiftdeps"
+  },
+  "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /Sources/buildpass/BuildPass.swift": {
+    "dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/BuildPass.d",
+    "object": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/BuildPass.swift.o",
+    "swiftmodule": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/BuildPass~partial.swiftmodule",
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/BuildPass.swiftdeps",
+    "diagnostics": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/BuildPass.dia"
+  },
+  "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /Sources/buildpass/PersonalizePassTool.swift": {
+    "dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/PersonalizePassTool.d",
+    "object": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/PersonalizePassTool.swift.o",
+    "swiftmodule": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/PersonalizePassTool~partial.swiftmodule",
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/PersonalizePassTool.swiftdeps",
+    "diagnostics": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/PersonalizePassTool.dia"
+  },
+  "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /Sources/buildpass/ReadCredential.swift": {
+    "dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/ReadCredential.d",
+    "object": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/ReadCredential.swift.o",
+    "swiftmodule": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/ReadCredential~partial.swiftmodule",
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/ReadCredential.swiftdeps",
+    "diagnostics": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/ReadCredential.dia"
+  },
+  "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /Sources/buildpass/SignPassTool.swift": {
+    "dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/SignPassTool.d",
+    "object": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/SignPassTool.swift.o",
+    "swiftmodule": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/SignPassTool~partial.swiftmodule",
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/SignPassTool.swiftdeps",
+    "diagnostics": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/SignPassTool.dia"
+  },
+  "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /Sources/buildpass/Validation/CLIValidationIssueFormatStyle.swift": {
+    "dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/CLIValidationIssueFormatStyle.d",
+    "object": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/CLIValidationIssueFormatStyle.swift.o",
+    "swiftmodule": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/CLIValidationIssueFormatStyle~partial.swiftmodule",
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/CLIValidationIssueFormatStyle.swiftdeps",
+    "diagnostics": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/CLIValidationIssueFormatStyle.dia"
+  },
+  "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /Sources/buildpass/Validation/ValidatePassTool.swift": {
+    "dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/ValidatePassTool.d",
+    "object": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/ValidatePassTool.swift.o",
+    "swiftmodule": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/ValidatePassTool~partial.swiftmodule",
+    "swift-dependencies": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/ValidatePassTool.swiftdeps",
+    "diagnostics": "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/arm64-apple-macosx/debug/buildpass.build/ValidatePassTool.dia"
+  }
+}

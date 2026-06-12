@@ -1,11 +1,11 @@
 {
   "formatVersion": 1,
   "passTypeIdentifier": "pass.com.passdesigner.sample",
-  "serialNumber": "PD-COUPON-0001",
+  "serialNumber": "SERIAL-COUPON-0000",
   "teamIdentifier": "ABCDE12345",
   "organizationName": "Pass Designer",
   "description": "Pass Designer sample coupon pass",
-  "logoText": "LUMEN MARKET",
+  "logoText": "STORE NAME",
   "foregroundColor": "rgb(28, 30, 34)",
   "backgroundColor": "rgb(248, 232, 170)",
   "labelColor": "rgb(112, 80, 28)",
@@ -14,15 +14,15 @@
     {
       "latitude": 25.2048,
       "longitude": 55.2708,
-      "relevantText": "Use this coupon near Lumen Market"
+      "relevantText": "Use this coupon near Store Name"
     }
   ],
   "barcodes": [
     {
       "format": "PKBarcodeFormatQR",
-      "message": "PD-COUPON-SPRING-25",
+      "message": "COUPON-CODE-0000",
       "messageEncoding": "iso-8859-1",
-      "altText": "SPRING25"
+      "altText": "CODE"
     }
   ],
   "coupon": {
@@ -30,40 +30,40 @@
       {
         "key": "expires",
         "label": "EXPIRES",
-        "value": "APR 30"
+        "value": "DATE"
       }
     ],
     "primaryFields": [
       {
         "key": "offer",
         "label": "TODAY ONLY",
-        "value": "25% Off"
+        "value": "Discount Value"
       }
     ],
     "secondaryFields": [
       {
         "key": "category",
         "label": "CATEGORY",
-        "value": "Home essentials"
+        "value": "Category Name"
       }
     ],
     "auxiliaryFields": [
       {
         "key": "code",
         "label": "CODE",
-        "value": "SPRING25"
+        "value": "CODE"
       },
       {
         "key": "minimum",
         "label": "MINIMUM",
-        "value": "AED 100"
+        "value": "Minimum Spend"
       }
     ],
     "backFields": [
       {
         "key": "terms",
         "label": "Terms",
-        "value": "Single use. Cannot be combined with other promotions."
+        "value": "Coupon terms and conditions."
       }
     ]
   }

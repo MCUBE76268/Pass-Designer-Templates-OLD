@@ -1,20 +1,20 @@
 {
   "formatVersion": 1,
   "passTypeIdentifier": "pass.com.passdesigner.sample",
-  "serialNumber": "PD-STORECARD-0001",
+  "serialNumber": "SERIAL-STORE-CARD-0000",
   "teamIdentifier": "ABCDE12345",
   "organizationName": "Pass Designer",
   "description": "Pass Designer sample store card pass",
-  "logoText": "ROAST & RYE",
+  "logoText": "BRAND NAME",
   "foregroundColor": "rgb(245, 245, 242)",
   "backgroundColor": "rgb(88, 45, 37)",
   "labelColor": "rgb(227, 190, 139)",
   "barcodes": [
     {
       "format": "PKBarcodeFormatCode128",
-      "message": "982734650019",
+      "message": "000000000000",
       "messageEncoding": "iso-8859-1",
-      "altText": "9827 3465 0019"
+      "altText": "0000 0000 0000"
     }
   ],
   "storeCard": {
@@ -22,7 +22,7 @@
       {
         "key": "tier",
         "label": "TIER",
-        "value": "GOLD"
+        "value": "TIER"
       }
     ],
     "primaryFields": [
@@ -37,26 +37,26 @@
       {
         "key": "member",
         "label": "MEMBER",
-        "value": "Avery Stone"
+        "value": "Person Name"
       }
     ],
     "auxiliaryFields": [
       {
         "key": "reward",
         "label": "NEXT REWARD",
-        "value": "260 pts"
+        "value": "Points Needed"
       },
       {
         "key": "memberSince",
         "label": "SINCE",
-        "value": "2025"
+        "value": "YEAR"
       }
     ],
     "backFields": [
       {
         "key": "program",
         "label": "Rewards",
-        "value": "Earn 10 points per AED 10. Rewards unlock every 1,500 points."
+        "value": "Rewards program details go here."
       }
     ]
   }

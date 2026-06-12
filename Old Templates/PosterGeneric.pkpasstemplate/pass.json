@@ -1,0 +1,73 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.passdesigner.sample",
+  "serialNumber": "PD-POSTER-GENERIC-0001",
+  "teamIdentifier": "ABCDE12345",
+  "organizationName": "Pass Designer",
+  "description": "Pass Designer sample poster-style generic pass",
+  "logoText": "FRAMEHOUSE",
+  "foregroundColor": "rgb(252, 250, 241)",
+  "backgroundColor": "rgb(25, 25, 28)",
+  "labelColor": "rgb(241, 181, 87)",
+  "relevantDate": "2027-08-12T18:30:00+04:00",
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "PD-POSTER-GENERIC-FRAMEHOUSE-0812",
+      "messageEncoding": "iso-8859-1",
+      "altText": "FH-0812"
+    }
+  ],
+  "posterGeneric": {
+    "headerFields": [
+      {
+        "key": "format",
+        "label": "FORMAT",
+        "value": "POSTER"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "title",
+        "label": "SCREENING",
+        "value": "Midnight Atlas"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "date",
+        "label": "DATE",
+        "value": "Aug 12"
+      },
+      {
+        "key": "time",
+        "label": "TIME",
+        "value": "6:30 PM"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "location",
+        "label": "LOCATION",
+        "value": "Gallery 2"
+      },
+      {
+        "key": "edition",
+        "label": "EDITION",
+        "value": "Artist proof"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "assetHint",
+        "label": "Artwork hint",
+        "value": "Use thumbnail.png or strip.png to preview poster artwork inside Pass Designer."
+      },
+      {
+        "key": "notes",
+        "label": "Notes",
+        "value": "This is a generic pass styled as a poster template because Wallet does not define a separate poster pass style."
+      }
+    ]
+  }
+}

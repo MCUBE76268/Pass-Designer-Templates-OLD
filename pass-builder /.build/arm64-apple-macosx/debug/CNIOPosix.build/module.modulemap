@@ -1,0 +1,4 @@
+module CNIOPosix {
+    umbrella header "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/checkouts/swift-nio/Sources/CNIOPosix/include/CNIOPosix.h"
+    export *
+}

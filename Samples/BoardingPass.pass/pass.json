@@ -1,11 +1,11 @@
 {
   "formatVersion": 1,
   "passTypeIdentifier": "pass.com.passdesigner.sample",
-  "serialNumber": "PD-BOARDING-0001",
+  "serialNumber": "SERIAL-BOARDING-0000",
   "teamIdentifier": "ABCDE12345",
   "organizationName": "Pass Designer",
   "description": "Pass Designer sample boarding pass",
-  "logoText": "SKYLINE AIR",
+  "logoText": "AIRLINE NAME",
   "foregroundColor": "rgb(255, 255, 255)",
   "backgroundColor": "rgb(24, 78, 119)",
   "labelColor": "rgb(189, 224, 254)",
@@ -14,15 +14,15 @@
     {
       "latitude": 25.2532,
       "longitude": 55.3657,
-      "relevantText": "Dubai International Airport"
+      "relevantText": "Airport Name"
     }
   ],
   "barcodes": [
     {
       "format": "PKBarcodeFormatPDF417",
-      "message": "M1ALHADI/NOOR          EPDXBSEA SK0427 073Y018A0001 100",
+      "message": "M1PERSON/NAME           EAAABBB FL0001 001Y001A0001 100",
       "messageEncoding": "iso-8859-1",
-      "altText": "SK0427"
+      "altText": "FL0001"
     }
   ],
   "boardingPass": {
@@ -31,65 +31,65 @@
       {
         "key": "gate",
         "label": "GATE",
-        "value": "B18"
+        "value": "GATE"
       },
       {
         "key": "seat",
         "label": "SEAT",
-        "value": "18A"
+        "value": "SEAT"
       }
     ],
     "primaryFields": [
       {
         "key": "origin",
-        "label": "DUBAI",
-        "value": "DXB"
+        "label": "ORIGIN",
+        "value": "AAA"
       },
       {
         "key": "destination",
-        "label": "SEATTLE",
-        "value": "SEA"
+        "label": "DESTINATION",
+        "value": "BBB"
       }
     ],
     "secondaryFields": [
       {
         "key": "passenger",
         "label": "PASSENGER",
-        "value": "Noor Al Hadi"
+        "value": "Person Name"
       },
       {
         "key": "flight",
         "label": "FLIGHT",
-        "value": "SK 427"
+        "value": "FL 0001"
       }
     ],
     "auxiliaryFields": [
       {
         "key": "boarding",
         "label": "BOARDING",
-        "value": "07:05"
+        "value": "HH:MM"
       },
       {
         "key": "departure",
         "label": "DEPARTURE",
-        "value": "07:45"
+        "value": "HH:MM"
       },
       {
         "key": "zone",
         "label": "ZONE",
-        "value": "2"
+        "value": "ZONE"
       }
     ],
     "backFields": [
       {
         "key": "terminal",
         "label": "Terminal",
-        "value": "Terminal 3"
+        "value": "Terminal Name"
       },
       {
         "key": "baggage",
         "label": "Baggage",
-        "value": "1 checked bag included"
+        "value": "Baggage details"
       }
     ]
   }
