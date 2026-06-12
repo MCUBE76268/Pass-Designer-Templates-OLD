@@ -1,4 +1,0 @@
-module CNIOOpenBSD {
-    umbrella header "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/checkouts/swift-nio/Sources/CNIOOpenBSD/include/CNIOOpenBSD.h"
-    export *
-}

@@ -1,4 +1,0 @@
-module CNIOAtomics {
-    umbrella header "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
-    export *
-}

@@ -1,4 +1,0 @@
-module CNIOLinux {
-    umbrella header "/Users/mr.mrobo/Desktop/Pass Designer/pass-builder /.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
-    export *
-}
