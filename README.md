@@ -17,9 +17,6 @@ Click **Code → Download ZIP** at the top of this page, then unzip the folder o
 3. Navigate to the `Templates/` folder inside the unzipped download
 4. Open any `.pkpasstemplate` file to start editing
 
-> **Don't have Pass Designer yet?** It requires macOS 27 or later.
-> [⬇️ Download Pass Designer (Apple Developer)](https://developer.apple.com/download/all/?q=pass%20designer)
-
 ### 3. Make It Yours
 
 Customize colors, fields, images, and branding — Pass Designer updates the preview in real time so you see exactly how your pass will look on iPhone and Apple Watch.
