@@ -1,27 +1,93 @@
-# Pass Designer Sample Passes
+# Pass Designer Templates
 
-This repository contains six sample Wallet pass templates for the macOS 27 app **Pass Designer**.
+A collection of **six ready-to-use Wallet pass templates** crafted for **Pass Designer** — Apple's new official macOS app for building and previewing Apple Wallet passes. Built by [@MCUBE76268](https://github.com/MCUBE76268) — download, open, and start designing your own passes in minutes.
 
-Open the files in `Templates/` from Pass Designer. The older `Samples/` folders are plain `.pass` JSON bundles for Pass Builder/signing experiments, but Pass Designer expects `.pkpasstemplate` files.
+---
 
-The templates are intentionally unsigned design fixtures. To turn one into a distributable `.pkpass`, add the required image assets, generate a manifest, sign it with your Pass Type ID certificate, and zip the bundle contents.
+## Getting Started
 
-## Samples
+### 1. Download the Templates
 
-- `Templates/BoardingPass.pkpasstemplate` - flight boarding pass
-- `Templates/Coupon.pkpasstemplate` - retail discount coupon
-- `Templates/Generic.pkpasstemplate` - appointment/check-in generic pass
-- `Templates/StoreCard.pkpasstemplate` - loyalty store card
-- `Templates/Event.pkpasstemplate` - concert/event ticket
-- `Templates/PosterGeneric.pkpasstemplate` - poster-style generic media pass
+Click **Code → Download ZIP** at the top of this page, then unzip the folder on your Mac.
 
-## Placeholder Identifiers
+### 2. Open in Pass Designer
 
-Each `pass.json` uses placeholder values:
+1. Launch **Pass Designer** on macOS 27
+2. Go to **File → Open**
+3. Navigate to the `Templates/` folder inside the unzipped download
+4. Open any `.pkpasstemplate` file to start editing
 
-- `passTypeIdentifier`: `pass.com.passdesigner.sample`
-- `teamIdentifier`: `ABCDE12345`
-- `organizationName`: `Pass Designer`
+### 3. Make It Yours
 
-Replace those values before signing or distributing real passes.
+Customize colors, fields, images, and branding — Pass Designer updates the preview in real time so you see exactly how your pass will look on iPhone and Apple Watch.
 
+---
+
+## Requirements
+
+- **macOS 27** or later
+- **Pass Designer** (beta) — [Download from Apple Developer](https://developer.apple.com/pass-designer/)
+
+> Pass Designer is Apple's brand-new official tool introduced with macOS 27 for creating, editing, and previewing Apple Wallet passes with real-time on-device rendering.
+
+---
+
+## What's Inside
+
+Six `.pkpasstemplate` files covering the most common pass types:
+
+| Template | File | Use Case |
+|---|---|---|
+| ✈️ Boarding Pass | `Templates/BoardingPass.pkpasstemplate` | Flight / transit passes |
+| 🏷️ Coupon | `Templates/Coupon.pkpasstemplate` | Retail discounts & promos |
+| 📋 Generic | `Templates/Generic.pkpasstemplate` | Appointments & check-ins |
+| 🛍️ Store Card | `Templates/StoreCard.pkpasstemplate` | Loyalty & rewards cards |
+| 🎟️ Event Ticket | `Templates/Event.pkpasstemplate` | Concerts, shows & events |
+| 🖼️ Poster Generic | `Templates/PosterGeneric.pkpasstemplate` | Poster-style media passes |
+
+---
+
+## From Template to Distributable `.pkpass`
+
+Once you've finished designing in Pass Designer, to distribute your pass:
+
+1. Add image assets (`icon.png`, `logo.png`, `background.png`, etc.)
+2. Generate a `manifest.json` with SHA-1 hashes of all bundle files
+3. Sign the manifest with your **Pass Type ID certificate** from Apple Developer
+4. Zip the bundle contents (not the folder) and rename to `.pkpass`
+
+> Apple's [Wallet Developer Guide](https://developer.apple.com/documentation/walletpasses) covers the full signing process.
+
+---
+
+## Placeholder Values
+
+Each `pass.json` ships with placeholder identifiers — replace these before signing or distributing real passes:
+
+```json
+"passTypeIdentifier": "pass.com.passdesigner.sample",
+"teamIdentifier":     "ABCDE12345",
+"organizationName":   "Pass Designer"
+```
+
+---
+
+## Legacy Samples
+
+The `Samples/` folders contain plain `.pass` JSON bundles from earlier experiments with Pass Builder and manual signing. Kept for reference, but **Pass Designer expects `.pkpasstemplate` files** from the `Templates/` folder.
+
+---
+
+## Contributing
+
+Found a bug or want to add a new pass type? PRs are welcome. Open an issue first to discuss bigger changes.
+
+---
+
+## License
+
+Templates are provided as-is for personal and commercial use. No strings attached.
+
+---
+
+*Made by [@MCUBE76268](https://github.com/MCUBE76268) · If you found this useful, a ⭐ on the repo would be really nice — and feel free to credit me if you use these in your project, though no pressure at all!*
