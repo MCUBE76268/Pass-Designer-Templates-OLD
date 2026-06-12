@@ -17,6 +17,9 @@ Click **Code → Download ZIP** at the top of this page, then unzip the folder o
 3. Navigate to the `Templates/` folder inside the unzipped download
 4. Open any `.pkpasstemplate` file to start editing
 
+> **Don't have Pass Designer yet?** It requires macOS 27 or later.
+> [⬇️ Download Pass Designer (Apple Developer)](https://developer.apple.com/download/all/?q=pass%20designer)
+
 ### 3. Make It Yours
 
 Customize colors, fields, images, and branding — Pass Designer updates the preview in real time so you see exactly how your pass will look on iPhone and Apple Watch.
@@ -26,9 +29,7 @@ Customize colors, fields, images, and branding — Pass Designer updates the pre
 ## Requirements
 
 - **macOS 27** or later
-- **Pass Designer** (beta) — [Download from Apple Developer](https://developer.apple.com/pass-designer/)
-
-> Pass Designer is Apple's brand-new official tool introduced with macOS 27 for creating, editing, and previewing Apple Wallet passes with real-time on-device rendering.
+- **Pass Designer** (beta) — [Download from Apple Developer](https://developer.apple.com/download/all/?q=pass%20designer)
 
 ---
 
@@ -56,8 +57,6 @@ Once you've finished designing in Pass Designer, to distribute your pass:
 3. Sign the manifest with your **Pass Type ID certificate** from Apple Developer
 4. Zip the bundle contents (not the folder) and rename to `.pkpass`
 
-> Apple's [Wallet Developer Guide](https://developer.apple.com/documentation/walletpasses) covers the full signing process.
-
 ---
 
 ## Placeholder Values
@@ -84,9 +83,26 @@ Found a bug or want to add a new pass type? PRs are welcome. Open an issue first
 
 ---
 
+## Useful Links
+
+- 🎨 [Pass Designer — Official Page](https://developer.apple.com/pass-designer/)
+- 🎬 [Pass Designer — WWDC Video Walkthrough](https://youtu.be/TvB-XLSIlqg)
+- 📖 [Wallet Passes — Developer Documentation](https://developer.apple.com/documentation/walletpasses)
+- 🛠️ [pass-builder — Apple's Open Source Tool](https://github.com/apple/pass-builder)
+
+---
+
 ## License
 
-Templates are provided as-is for personal and commercial use. No strings attached.
+MIT License
+
+Copyright (c) 2026 MCUBE76268
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
